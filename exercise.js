@@ -24,7 +24,8 @@ console.log(x + " is the longest place name in the world and has" + y + " letter
 /*2. Declare a variable named `fifthLetter` and find out which letter is in the 5th position in the string below. Console.log your result.*/
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
-
+var fifthLetter = iDidntKnow.charAt(5);
+console.log(fifthLetter);
 
 
 /*The indexOf() method returns the index (position) of the first occurence of a specified text in a string.*/
